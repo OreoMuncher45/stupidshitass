@@ -1,0 +1,35 @@
+{
+  "id": "bitchord-streaming-modules",
+  "name": "BitChord Streaming Modules",
+  "version": "0.6.0",
+  "description": "Qobuz 320kbps streaming module for BitChord. Bring your own credentials.",
+  "author": "community",
+  "resources": [
+    "search",
+    "stream"
+  ],
+  "types": [
+    "music"
+  ],
+  "category:music": [
+    {
+      "id": "qobuz-320",
+      "name": "Qobuz 320kbps MP3",
+      "author": "community",
+      "version": "1.0.0",
+      "code": 1,
+      "type": "MODULE",
+      "description": "Qobuz catalogue search with streams pinned to 320kbps MP3 (format_id 5). Requires your own Qobuz app ID, app secret and user token in the module settings; inert without them. True catalogue IDs and durations keep matches on the right recording.",
+      "tags": [
+        "QOBUZ",
+        "HIGH",
+        "320KBPS",
+        "MP3"
+      ],
+      "download": "modules/qobuz-320.js",
+      "trusted": false,
+      "featured": true,
+      "lastUpdated": "2026-10-12"
+    }
+  ]
+}
